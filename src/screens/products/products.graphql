@@ -1,0 +1,14 @@
+query products {
+  products {
+    category_id
+    discontinued
+    product_id
+    product_name
+    quantity_per_unit
+    reorder_level
+    supplier_id
+    unit_price
+    units_in_stock
+    units_on_order
+  }
+}

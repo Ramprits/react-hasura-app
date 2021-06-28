@@ -1,0 +1,9 @@
+overwrite: true
+schema: "https://oclm-sahani.hasura.app/v1/graphql"
+documents: "src/**/*.graphql"
+generates:
+  src/generated/graphql.tsx:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
